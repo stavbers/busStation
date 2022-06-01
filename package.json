@@ -5,7 +5,7 @@
   "main": "src/script.js",
   "scripts": {
     "serve": "parcel ./src/index.html -p 5000 --open",
-    "build": "parcel build ./src/index.html --public-url ./ --detailed-report"
+    "build": "parcel build ./src/index.html --public-url ./ --no-source-maps --detailed-report"
   },
   "repository": {
     "type": "git",
