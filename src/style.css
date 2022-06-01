@@ -98,14 +98,46 @@
     right: 20px;
     bottom: 20px;
 }
-
+.second-screen__info {
+    font-size: 15px;
+}
 .second-screen__form {
     display: flex;
     flex-direction: column;
 }
-
+.second-screen__form label {
+    padding-top: 10px;
+    /*padding-bottom: 10px;*/
+    text-align: center;
+}
+.form__input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
 .form__run {
     margin: 0 auto;
+    margin-top: 15px;
     max-width: 150px;
+}
+.data-base {
+    text-align: center;
+}
+.data-base__title {
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.data-base__table {
+    margin: 0 auto;
+    background: rgb(255, 250, 240);
+    min-width: 300px;
+    color: #182933;
+}
+.data-base__table td {
+    /*border: ;*/
+    border-bottom: 1px solid #182933;
+}
+.table__title {
+    background: rgb(255, 170, 0);
 
 }
