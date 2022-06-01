@@ -139,5 +139,25 @@
 }
 .table__title {
     background: rgb(255, 170, 0);
-
+}
+.second-screen__actions {
+    display: flex;
+    padding-top: 25px;
+}
+.actions__item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.actions__link {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+}
+.actions__link img {
+    text-align: center;
+    width: 100%;
+}
+.actions__title {
+    padding-top: 5px;
 }
