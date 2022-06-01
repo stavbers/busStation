@@ -4,34 +4,40 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.show {
+    display: flex;
+}
+.hide {
+    display: none!important;
+}
 .container {
     padding: 20px;
     min-width: 320px;
     max-width: 600px;
     margin: 0 auto;
 }
-
-.first-screen {
-    position: relative;
-    height: 100vh;
-    padding: 15px;
+.wrapper {
     background-color: #F4F4F4;
     -webkit-box-shadow: 0px 9px 16px 12px rgba(204,204,204,0.95);
     box-shadow: 0px 9px 16px 12px rgba(204,204,204,0.95);
     border-radius: 12px;
+}
+.first-screen, .second-screen {
+    position: relative;
+    height: 100vh;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
 }
-.first-screen__img {
+.first-screen__img, .second-screen__img {
     padding-top: 20px;
 }
-.first-screen__img img{
+.first-screen__img img, .second-screen__img img{
     width: 100%;
 }
 
-.first-screen__title {
+.first-screen__title, .second-screen__title {
     padding-top: 20px;
     padding-bottom: 15px;
     font-size: 28px;
@@ -39,7 +45,7 @@
     line-height: 32px;
     text-align: center;
 }
-.first-screen__info {
+.first-screen__info, .second-screen__info {
     text-align: center;
     font-size: 18px;
     line-height: 24px;
@@ -93,3 +99,13 @@
     bottom: 20px;
 }
 
+.second-screen__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__run {
+    margin: 0 auto;
+    max-width: 150px;
+
+}

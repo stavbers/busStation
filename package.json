@@ -1,0 +1,27 @@
+{
+  "name": "busstation",
+  "version": "1.0.0",
+  "description": "javascript project",
+  "main": "src/script.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 5000 --open",
+    "build": "parcel build ./src/index.html --public-url ./ --detailed-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stavbers/busStation.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "stavbers iam@stavbers.men",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stavbers/busStation/issues"
+  },
+  "homepage": "https://github.com/stavbers/busStation#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
