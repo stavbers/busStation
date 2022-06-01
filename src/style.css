@@ -130,7 +130,7 @@
 .data-base__table {
     margin: 0 auto;
     background: rgb(255, 250, 240);
-    min-width: 300px;
+    width: 100%;
     color: #182933;
 }
 .data-base__table td {
@@ -142,12 +142,17 @@
 }
 .second-screen__actions {
     display: flex;
+    justify-content: center;
     padding-top: 25px;
 }
 .actions__item {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-right: 15px;
+}
+.actions__item:last-child {
+    margin-right: 0;
 }
 .actions__link {
     width: 48px;
