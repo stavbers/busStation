@@ -21,14 +21,15 @@
     -webkit-box-shadow: 0px 9px 16px 12px rgba(204,204,204,0.95);
     box-shadow: 0px 9px 16px 12px rgba(204,204,204,0.95);
     border-radius: 12px;
-}
-.first-screen, .second-screen, .third--screen {
     position: relative;
     height: 100vh;
     padding: 15px;
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
+}
+.first-screen, .second-screen, .third--screen {
+
 }
 .first-screen__img, .second-screen__img {
     padding-top: 20px;
@@ -83,12 +84,12 @@
     touch-action: manipulation;
 
 }
-.choice-true {
-    background: rgb(255,185,35);
-    margin-right: 25px;
-}
-.choice-false {
+.choice-btn:first-child {
     background: #182933;
+}
+.choice-btn:last-child {
+    background: rgb(255,185,35);
+    margin-left: 25px;
 }
 
 .first-screen--lang {
